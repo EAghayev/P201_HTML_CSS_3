@@ -1,0 +1,58 @@
+
+@font-face {
+    font-family: 'p201';
+    src: url('../assets/images/MontaguSlab-VariableFont_opszwght.ttf');
+}
+
+body{
+    font-family: 'p201','Arial',serif;
+    font-weight: 300;
+    font-size: 25px;
+}
+.box{
+    width: 850px;
+    height:250px;
+    background-color: rgba(204, 161, 206, 0.575);
+    text-align: right;
+    transition: 0.7s;
+}
+
+.box:hover{
+    /* letter-spacing: 20px; */
+    box-shadow: 8px 14px gray;
+}
+
+p{
+    /* direction: rtl;
+    unicode-bidi: bidi-override; */
+    text-align: center;
+    color:rgba(255,0,255,0.9)
+}
+.socials li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+}
+
+.socials li a{
+    color: white;
+}
+
+.color-fb{
+    background-color: #039BE5;
+}
+.color-insta{
+    /* background-color: linear-gradient(
+        45deg, #150b00 0%,#e6683c 25%,#a75d69 50%,#d8c2c2 75%,#ececec 100%); */
+        background-color: linear-gradient(
+            45deg, #150b00 0%,#e6683c 25%,#a75d69 50%,#d8c2c2 75%,#ececec 100%);
+        background: -webkit-linear-gradient(
+            45deg, #150b00 0%,#e6683c 25%,#a75d69 50%,#d8c2c2 75%,#ececec 100%);
+}
+
+.color-youtube{
+    background-color: #FF3D00;
+}
